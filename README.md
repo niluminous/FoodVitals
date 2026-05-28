@@ -69,7 +69,7 @@ Assesses adherence to food safety guidelines using a dataset created via GPT gen
 
 ## ⚖️ Availability, FAIR Compliance, and Ethics
 
-FoodVitals, its three construction pipelines, and the evaluation harness are publicly released at `github.com/niluminous/food_eval`.
+FoodVitals, its the evaluation harness are publicly released at `https://github.com/niluminous/FoodVitals`.
 
 The release of FoodVitals follows FAIR-aligned practices:
 
