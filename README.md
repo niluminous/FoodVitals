@@ -71,16 +71,13 @@ Assesses adherence to food safety guidelines using a dataset created via GPT gen
 
 FoodVitals, its three construction pipelines, and the evaluation harness are publicly released at `github.com/niluminous/food_eval`.
 
-The release follows FAIR-aligned practices~\cite{wilkinson2016fair}:
-items are \emph{Findable} via a persistent Digital Object Identifier (DOI) and 
-indexed repository metadata; \emph{Accessible} over HTTPS via the open 
-repository platform with no authentication requirements; \emph{Interoperable} 
-through the unified typed schema across CSV and JSONL formats as described in 
-\S\ref{sec:schema}; and \emph{Reusable} via the included Datasheet for 
-Datasets~\cite{gebru2021datasheets}, open-source construction pipelines, 
-and comprehensive upstream provenance manifests detailing the source mappings. 
-All upstream sources (USDA FoodData Central~\cite{usda_fdc}, USDA FSIS~\cite{usda_fsis}, 
-and the EFSA-derived Health Claims KG~\cite{celebi2024kg}) permit 
-redistribution for research under their original terms.
+The release of FoodVitals follows FAIR-aligned practices:
+
+* **Findable:** Items are discoverable via a persistent Digital Object Identifier (DOI) and indexed repository metadata.
+* **Accessible:** Data is retrievable over HTTPS via the open repository platform with no authentication requirements.
+* **Interoperable:** The dataset utilizes a unified typed schema across CSV and JSONL formats.
+* **Reusable:** The repository includes a Datasheet for Datasets, open-source construction pipelines, and comprehensive upstream provenance manifests detailing the source mappings.
+
+All upstream sources (USDA FoodData Central, USDA FSIS, and the EFSA-derived Health Claims KG) permit redistribution for research under their original terms.
 
 **Ethics:** FoodVitals is a diagnostic benchmark and not a substitute for clinical, dietary, or food-safety advice, as stated in the datasheet. The current benchmark is grounded primarily in Western regulatory sources (USDA/EFSA). Future work will extend coverage to non-Western regulatory frameworks.
