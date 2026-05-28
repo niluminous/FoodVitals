@@ -1,0 +1,14 @@
+# Ignore specific data formats in this folder and all subfolders
+*.csv
+*.jsonl
+*.json
+*.tsv
+*.xml
+*.parquet
+*.pkl
+*.h5
+*.dat
+
+# Ignore Excel files
+*.xls
+*.xlsx
